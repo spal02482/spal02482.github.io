@@ -1,7 +1,45 @@
 <html>
-	<title> first page </title>
-	<body>
-		<h1 align='center'> worked </h1>
-	</body>
+    <h1 align="center" > Signup Page </h1>
+    <body>
+    <fieldset>
+    <legend> Personal Information </legend>
+        <form action="hello.html" method='post'>
+            <table align='center' border='1'>
+                <tr>
+                	<td>Name :</td> 
+	                <td><input type ="text" placeholder="suraj" name="fname" value="aashish"></td>
+                </tr>
+                <tr>
+                	<td>Phone No:</td>
+                	<td> <input type ="text" placeholder="xxxxxxx" name="phone"></td>
+                </tr>
+                <tr>
+                	<td>Email Id:</td><td> <input type ="text" placeholder="abc@gmail.com" name="email">
+                	</td>
+                </tr>
+                <tr>
+                	<td>Gender:</td>
+                	<td>Male:<input type="radio" name="gender">Feamle:<input type="radio" name="gender"></td>
+                </tr>
+                <tr>
+                	<td>Hobbies:</td>
+                	<td>Debating:<input type="checkbox" name="debating">Football:<input type="checkbox" name="football"></td>                			</tr>
+               	<tr>
+               		<td>Upload Resume:</td>
+               		<td><input type="file" name="resume"></td>
+               	</tr>
+               	<tr>
+               		<td> DOB </td>
+               		<td> 
+               			<select name="date">
+               				<option>1/2/2013</option>
+               				<option>2/3/2015</option>
+               			</select>
+               	`	</td>
+               	</tr>
+                <tr><td>Submit</td><td><input type="submit" value="signup" name="submit"></td></tr>
+            </table>
+        </form>
+       </fieldset>
+    </body>
 </html>
-		
